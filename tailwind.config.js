@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'torinocyan': '#2da4aa',
+        'torinoorange': '#f38e2b',
+        'torinowhite': '#fcfdfe',
+        'torinoblack': '#010806',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -16,3 +22,4 @@ module.exports = {
   },
   plugins: [],
 }
+
